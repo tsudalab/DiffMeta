@@ -17,25 +17,25 @@ The data used in this paper, including generated and training data, is publicly 
 ## Dependencies
 ### Conda environment
 Please use our environment file to set up the required environment:.
-'''
+```
 # Clone the environment
 conda env create -f environment.yml
 # Activate the environment
 conda activate diffmeta
-'''
+```
 ### S4 Installation
 For spectral simulation, install S4 according to the [guidance](https://web.stanford.edu/group/fan/S4/install.html)
 
 ## Usage
 ### 1. Training
 First, train a spectral autoencoder:
-'''
+```
 python train_spec_encoder.py
-'''
+```
 Then train DiffMeta using the following command:
-'''
+```
 python train_diffmeta.py
-'''
+```
 
 ### 2. Inference
 To perform inference with a trained DiffMeta model, use:
