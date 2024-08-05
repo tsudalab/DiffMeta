@@ -106,7 +106,7 @@ def inverse_min_max_normalize(norm_data, original_min, original_max):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Generate predictions using selected models.")
-    parser.add_argument('filename', type=str, help='Path to the target spectrum file')
+    parser.add_argument('--target_spectrum', type=str, help='Path to the target spectrum file')
     parser.add_argument('--models', nargs='+', choices=['diff', 'vae', 'gan'], help='Models to use for predictions', required=True)
     args = parser.parse_args()
     
@@ -145,7 +145,7 @@ if __name__ == '__main__':
         print(diff_states['epoch'], pytorch_total_params)
 
     # Load target spectrum
-    target = np.load(args.filename)
+    target = np.load(args.target_spectrum)
     spectrums = torch.tensor(target, device=DEVICE).float()
     
     with torch.no_grad():
