@@ -70,7 +70,7 @@ python generation.py --target_spectrum <target_spectrum_file_path> --models <whi
 python generation.py --target_spectrum target.npy --models diff vae gan
 ```
 ### 5. Simulation
-To simulate the optical properties of the generated metamaterials, switch to the calculation_util folder. rcwa_calculator.py provides an example for spectral simulation. Simulate the optical properties of the generated metamaterials according to the structure file format.
+To simulate the optical properties of the generated metamaterials, switch to the `calculation_util` folder. `rcwa_calculator.py` provides an example of spectral simulation. Simulate the optical properties of the generated metamaterials according to the structure file format.
 
 
 ## Cite
