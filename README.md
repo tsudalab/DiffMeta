@@ -76,7 +76,7 @@ To simulate the optical properties of the generated metamaterials, switch to the
 ## Cite
 
 If you reference or cite this work in your research, please cite:
-'''
+```
 @misc{li2025inversedesignmetamaterialsmanufacturingguiding,
       title={Inverse Design of Metamaterials with Manufacturing-Guiding Spectrum-to-Structure Conditional Diffusion Model}, 
       author={Jiawen Li and Jiang Guo and Yuanzhe Li and Zetian Mao and Jiaxing Shen and Tashi Xu and Diptesh Das and Jinming He and Run Hu and Yaerim Lee and Koji Tsuda and Junichiro Shiomi},
@@ -86,5 +86,5 @@ If you reference or cite this work in your research, please cite:
       primaryClass={physics.optics},
       url={https://arxiv.org/abs/2506.07083}, 
 }
-'''
+```
 
