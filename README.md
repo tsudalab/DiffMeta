@@ -1,7 +1,7 @@
 
 # DiffMeta: Inverse Design of Metamaterials with Manufacturing-Aware Spectrum-to-Shape Diffusion Models
 
-This repository implements the paper [Inverse Design of Metamaterials with Manufacturing-Aware Spectrum-to-Shape Diffusion Models](LINK).
+This repository implements the paper [Inverse Design of Metamaterials with Manufacturing-Aware Spectrum-to-Shape Diffusion Models](https://www.arxiv.org/pdf/2506.07083).
 
 ## Introduction
 ### 1. The task description for inverse design of metamaterial:
@@ -76,5 +76,15 @@ To simulate the optical properties of the generated metamaterials, switch to the
 ## Cite
 
 If you reference or cite this work in your research, please cite:
+'''
+@misc{li2025inversedesignmetamaterialsmanufacturingguiding,
+      title={Inverse Design of Metamaterials with Manufacturing-Guiding Spectrum-to-Structure Conditional Diffusion Model}, 
+      author={Jiawen Li and Jiang Guo and Yuanzhe Li and Zetian Mao and Jiaxing Shen and Tashi Xu and Diptesh Das and Jinming He and Run Hu and Yaerim Lee and Koji Tsuda and Junichiro Shiomi},
+      year={2025},
+      eprint={2506.07083},
+      archivePrefix={arXiv},
+      primaryClass={physics.optics},
+      url={https://arxiv.org/abs/2506.07083}, 
+}
+'''
 
-.......
